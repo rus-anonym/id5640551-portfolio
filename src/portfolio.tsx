@@ -127,7 +127,7 @@ const Portfolio = (): JSX.Element => {
                     </Cell>
                 )}
                 <Cell
-                    description="05.04.2004"
+                    description={config.birthday}
                     disabled
                     before={<Icon28CalendarOutline />}
                     indicator={`${config.age} ${utils.string.declOfNum(
